@@ -94,9 +94,11 @@ The data dictionary,Data\_Dictionary.xlsx which describes the meaning of these v
 
 - Anshuman Biswal
   - Github username [@anshumanbiswal26121981]
+  - anshumanbiswal@gmail.com
 
 - Abhijit Kumar Manna
-  - Github username [@]
+  - Github username [@abhijitaec]
+  - abhijitkumarmanna@gmail.com
 
 **feel free to contact us!**
 
