@@ -1,5 +1,5 @@
-# Project Name
-> Lending Club Case Study.
+# Lending Club Case Study
+> This project was done as part of assignment of the course Master of Science in Machine Learning & AI from Liverpool John Moores University, through Upgrad.
 
 
 ## Table of Contents
@@ -8,7 +8,7 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
+
 
 ## General Information
 
@@ -48,20 +48,42 @@ The data dictionary,Data\_Dictionary.xlsx which describes the meaning of these v
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- Most of the Loan amounts are in range of 5000 - 10000
+- Most of the  Interest Rates on loans are in range of 12% - 15%
+- When Anual income is low  then dti is high and vice versa
+- Annual income increases by employement length
+- Loan amount also increases with increase in annual_inc and also the installment increases with annual inc
+- 85% of the Loan is fully paid and 15% of the loan is charged off
+- As per purpose of the loan most of the loans taken for debt consolidation(47%) and Credit card bill payment Other category is also one of the main area where loans were taken.
+- It is observed that Mortgage and Rent home owenrs contribute towards the defaulter
+- Most of the loans were taken for the purpose of debt consolidation & paying credit card bill. Number of chraged off count also high too for these loans.
+- Most of the people living in rented home or mortgazed their home are major defaulters .Applicant numbers are high from these categories so charged off is high too.
+- Those who had taken loan to repay in 36 months had more % of number of applicants getting charged off as compared to applicants who had taken loan for 60 months.
+- Charged off is seen more when the interest rates are between 13-17% and 9-13%
+- Charged off is more for people with work experience 10 years or with experice of 1 year
+- Charged off is seen more when the open acc groups (The number of open credit lines in the borrower's credit file) is between 2-10 
+- Charged off is seen more when the total_acc (The total number of credit lines currently in the borrower's credit file) is between 2-20 and then 20-37 
+- Charged off is seen more when the annual inc is between 3k to 58k. More defaulters are seen in the annula income between 3K - 31K
+- More defaulters are seen when the application is not verified and also for verified application
+- More defaulters are seen when the inquiries in last 6 months is between 0-3
+- More defaulters are seen when the  Number of derogatory public records is 0
+- Charged off is seen more in dec 2011
+- More defaulters are seen for 145-274 installment group
+- More defaulters are seen for funded_amt_inv ammount between 5k-10k
+- More defaulters are seen for 5k-10k loam amount
+- More defaulters are seen for 12-18 dti group, however more defaulters are seen from 6-24 dti with 12-18 dti is the highest.
+- Grade "F" and "G" have very high chances of charged off.Chances of charged of is increasing with grade moving from "A" towards "G"
+- Charge off is seen more in home_improvement and house and these people had low income in that purpose than the people who fully paid. 
+- Applicants with higher salary mostly applied loans for "home_improvment", "house","renewable_energy","credit_card" and "small_businesses"
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- numpy - version 1.23.5
+- pandas - version 1.5.3
+- matplotlib - version 3.8.0
+- seaborn - version 0.12.2
+- warnings - version 3.10.0
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 
@@ -79,8 +101,26 @@ The data dictionary,Data\_Dictionary.xlsx which describes the meaning of these v
 **feel free to contact us!**
 
 
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
+## License
 
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+MIT License
+
+Copyright (c) [year] [fullname]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
